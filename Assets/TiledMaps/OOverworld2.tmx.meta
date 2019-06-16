@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 8fe6b332efdd74edbb5e22f80e8b6423
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: _MapPrfab/OOverworld2
+    100002: _MapPrfab/OOverworld2/Collision
+    100004: _MapPrfab/OOverworld2/collision mask
+    100006: _MapPrfab/OOverworld2/collision mask/Object_17
+    100008: _MapPrfab/OOverworld2/collision mask/Object_18
+    100010: _MapPrfab/OOverworld2/collision mask/Object_19
+    100012: _MapPrfab/OOverworld2/collision mask/Object_20
+    100014: _MapPrfab/OOverworld2/collision mask/Object_21
+    100016: _MapPrfab/OOverworld2/collision mask/Object_22
+    100018: _MapPrfab/OOverworld2/collision mask/Object_23
+    100020: _MapPrfab/OOverworld2/collision mask/Object_24
+    100022: _MapPrfab/OOverworld2/collision mask/Object_25
+    100024: _MapPrfab/OOverworld2/collision mask/Object_26
+    100026: _MapPrfab/OOverworld2/collision mask/Object_27
+    100028: _MapPrfab/OOverworld2/collision mask/Object_28
+    100030: _MapPrfab/OOverworld2/collision mask/Object_29
+    100032: _MapPrfab/OOverworld2/collision mask/Object_30
+    100034: _MapPrfab/OOverworld2/collision mask/Object_31
+    100036: _MapPrfab/OOverworld2/collision mask/Object_32
+    100038: _MapPrfab/OOverworld2/collision mask/Object_33
+    100040: _MapPrfab/OOverworld2/collision mask/Object_34
+    100042: _MapPrfab/OOverworld2/collision mask/Object_35
+    100044: _MapPrfab/OOverworld2/Ground
+    100046: _MapPrfab/OOverworld2/collision mask/Object_37
+    400000: _MapPrfab/OOverworld2/Transform
+    400002: _MapPrfab/OOverworld2/Collision/Transform
+    400004: _MapPrfab/OOverworld2/collision mask/Transform
+    400006: _MapPrfab/OOverworld2/collision mask/Object_17/Transform
+    400008: _MapPrfab/OOverworld2/collision mask/Object_18/Transform
+    400010: _MapPrfab/OOverworld2/collision mask/Object_19/Transform
+    400012: _MapPrfab/OOverworld2/collision mask/Object_20/Transform
+    400014: _MapPrfab/OOverworld2/collision mask/Object_21/Transform
+    400016: _MapPrfab/OOverworld2/collision mask/Object_22/Transform
+    400018: _MapPrfab/OOverworld2/collision mask/Object_23/Transform
+    400020: _MapPrfab/OOverworld2/collision mask/Object_24/Transform
+    400022: _MapPrfab/OOverworld2/collision mask/Object_25/Transform
+    400024: _MapPrfab/OOverworld2/collision mask/Object_26/Transform
+    400026: _MapPrfab/OOverworld2/collision mask/Object_27/Transform
+    400028: _MapPrfab/OOverworld2/collision mask/Object_28/Transform
+    400030: _MapPrfab/OOverworld2/collision mask/Object_29/Transform
+    400032: _MapPrfab/OOverworld2/collision mask/Object_30/Transform
+    400034: _MapPrfab/OOverworld2/collision mask/Object_31/Transform
+    400036: _MapPrfab/OOverworld2/collision mask/Object_32/Transform
+    400038: _MapPrfab/OOverworld2/collision mask/Object_33/Transform
+    400040: _MapPrfab/OOverworld2/collision mask/Object_34/Transform
+    400042: _MapPrfab/OOverworld2/collision mask/Object_35/Transform
+    400044: _MapPrfab/OOverworld2/Ground/Transform
+    400046: _MapPrfab/OOverworld2/collision mask/Object_37/Transform
+    6100000: _MapPrfab/OOverworld2/collision mask/Object_17/BoxCollider2D
+    6100002: _MapPrfab/OOverworld2/collision mask/Object_18/BoxCollider2D
+    6100004: _MapPrfab/OOverworld2/collision mask/Object_19/BoxCollider2D
+    6100006: _MapPrfab/OOverworld2/collision mask/Object_20/BoxCollider2D
+    6100008: _MapPrfab/OOverworld2/collision mask/Object_21/BoxCollider2D
+    6100010: _MapPrfab/OOverworld2/collision mask/Object_22/BoxCollider2D
+    6100012: _MapPrfab/OOverworld2/collision mask/Object_23/BoxCollider2D
+    6100014: _MapPrfab/OOverworld2/collision mask/Object_24/BoxCollider2D
+    6100016: _MapPrfab/OOverworld2/collision mask/Object_25/BoxCollider2D
+    6100018: _MapPrfab/OOverworld2/collision mask/Object_26/BoxCollider2D
+    6100020: _MapPrfab/OOverworld2/collision mask/Object_27/BoxCollider2D
+    6100022: _MapPrfab/OOverworld2/collision mask/Object_28/BoxCollider2D
+    6100024: _MapPrfab/OOverworld2/collision mask/Object_29/BoxCollider2D
+    6100026: _MapPrfab/OOverworld2/collision mask/Object_30/BoxCollider2D
+    6100028: _MapPrfab/OOverworld2/collision mask/Object_31/BoxCollider2D
+    6100030: _MapPrfab/OOverworld2/collision mask/Object_32/BoxCollider2D
+    6100032: _MapPrfab/OOverworld2/collision mask/Object_33/BoxCollider2D
+    6100034: _MapPrfab/OOverworld2/collision mask/Object_34/BoxCollider2D
+    6100036: _MapPrfab/OOverworld2/collision mask/Object_35/BoxCollider2D
+    6100038: _MapPrfab/OOverworld2/collision mask/Object_37/BoxCollider2D
+    11400000: _MapPrfab/OOverworld2/MonoBehaviour-SuperTiled2Unity.SuperMap
+    11400002: _MapPrfab/OOverworld2/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400004: _MapPrfab/OOverworld2/Collision/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400006: _MapPrfab/OOverworld2/Collision/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400008: _MapPrfab/OOverworld2/Collision/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400010: _MapPrfab/OOverworld2/collision mask/MonoBehaviour-SuperTiled2Unity.SuperObjectLayer
+    11400012: _MapPrfab/OOverworld2/collision mask/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400014: _MapPrfab/OOverworld2/collision mask/Object_17/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400016: _MapPrfab/OOverworld2/collision mask/Object_17/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400018: _MapPrfab/OOverworld2/collision mask/Object_17/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400020: _MapPrfab/OOverworld2/collision mask/Object_18/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400022: _MapPrfab/OOverworld2/collision mask/Object_18/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400024: _MapPrfab/OOverworld2/collision mask/Object_18/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400026: _MapPrfab/OOverworld2/collision mask/Object_19/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400028: _MapPrfab/OOverworld2/collision mask/Object_19/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400030: _MapPrfab/OOverworld2/collision mask/Object_19/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400032: _MapPrfab/OOverworld2/collision mask/Object_20/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400034: _MapPrfab/OOverworld2/collision mask/Object_20/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400036: _MapPrfab/OOverworld2/collision mask/Object_20/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400038: _MapPrfab/OOverworld2/collision mask/Object_21/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400040: _MapPrfab/OOverworld2/collision mask/Object_21/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400042: _MapPrfab/OOverworld2/collision mask/Object_21/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400044: _MapPrfab/OOverworld2/collision mask/Object_22/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400046: _MapPrfab/OOverworld2/collision mask/Object_22/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400048: _MapPrfab/OOverworld2/collision mask/Object_22/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400050: _MapPrfab/OOverworld2/collision mask/Object_23/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400052: _MapPrfab/OOverworld2/collision mask/Object_23/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400054: _MapPrfab/OOverworld2/collision mask/Object_23/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400056: _MapPrfab/OOverworld2/collision mask/Object_24/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400058: _MapPrfab/OOverworld2/collision mask/Object_24/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400060: _MapPrfab/OOverworld2/collision mask/Object_24/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400062: _MapPrfab/OOverworld2/collision mask/Object_25/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400064: _MapPrfab/OOverworld2/collision mask/Object_25/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400066: _MapPrfab/OOverworld2/collision mask/Object_25/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400068: _MapPrfab/OOverworld2/collision mask/Object_26/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400070: _MapPrfab/OOverworld2/collision mask/Object_26/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400072: _MapPrfab/OOverworld2/collision mask/Object_26/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400074: _MapPrfab/OOverworld2/collision mask/Object_27/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400076: _MapPrfab/OOverworld2/collision mask/Object_27/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400078: _MapPrfab/OOverworld2/collision mask/Object_27/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400080: _MapPrfab/OOverworld2/collision mask/Object_28/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400082: _MapPrfab/OOverworld2/collision mask/Object_28/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400084: _MapPrfab/OOverworld2/collision mask/Object_28/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400086: _MapPrfab/OOverworld2/collision mask/Object_29/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400088: _MapPrfab/OOverworld2/collision mask/Object_29/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400090: _MapPrfab/OOverworld2/collision mask/Object_29/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400092: _MapPrfab/OOverworld2/collision mask/Object_30/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400094: _MapPrfab/OOverworld2/collision mask/Object_30/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400096: _MapPrfab/OOverworld2/collision mask/Object_30/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400098: _MapPrfab/OOverworld2/collision mask/Object_31/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400100: _MapPrfab/OOverworld2/collision mask/Object_31/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400102: _MapPrfab/OOverworld2/collision mask/Object_31/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400104: _MapPrfab/OOverworld2/collision mask/Object_32/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400106: _MapPrfab/OOverworld2/collision mask/Object_32/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400108: _MapPrfab/OOverworld2/collision mask/Object_32/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400110: _MapPrfab/OOverworld2/collision mask/Object_33/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400112: _MapPrfab/OOverworld2/collision mask/Object_33/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400114: _MapPrfab/OOverworld2/collision mask/Object_33/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400116: _MapPrfab/OOverworld2/collision mask/Object_34/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400118: _MapPrfab/OOverworld2/collision mask/Object_34/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400120: _MapPrfab/OOverworld2/collision mask/Object_34/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400122: _MapPrfab/OOverworld2/collision mask/Object_35/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400124: _MapPrfab/OOverworld2/collision mask/Object_35/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400126: _MapPrfab/OOverworld2/collision mask/Object_35/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400128: _MapPrfab/OOverworld2/Ground/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400130: _MapPrfab/OOverworld2/Ground/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400132: _MapPrfab/OOverworld2/Ground/MonoBehaviour-SuperTiled2Unity.TilemapData
+    11400134: _superAsset
+    11400136: _MapPrfab/OOverworld2/collision mask/Object_37/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400138: _MapPrfab/OOverworld2/collision mask/Object_37/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400140: _MapPrfab/OOverworld2/collision mask/Object_37/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    100100000: _MapPrfab
+    2569400265252428796: _MapPrfab/OOverworld2/Grid
+    3664157343022684176: _MapPrfab/OOverworld2/Collision/TilemapRenderer
+    3664157343022684178: _MapPrfab/OOverworld2/Ground/TilemapRenderer
+    8195094279510102542: _MapPrfab/OOverworld2/Collision/Tilemap
+    8195094279510102544: _MapPrfab/OOverworld2/Ground/Tilemap
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors: []
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 12
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets: []
