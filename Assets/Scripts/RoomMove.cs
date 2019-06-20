@@ -7,6 +7,10 @@ public class RoomMove : MonoBehaviour
 {
 
     public Vector2 cameraChange;
+
+        //if I would like to make different sizes of worlds:
+    //public Vector2 cameraMinChange;
+    //public Vector2 cameraMaxChange;
     public Vector3 playerChange;
     private CameraMovement cam;
     public bool needText;
@@ -29,6 +33,10 @@ public class RoomMove : MonoBehaviour
     {
       if(other.CompareTag("Player") && !other.isTrigger)
         {
+            //if I would like to make different sizes of worlds:
+            //cam.minPosition += cameraMinChange;
+            //cam.maxPosition += cameraMaxChange;
+            // plus say how the max and min value should be
             cam.minPosition += cameraChange;
             cam.maxPosition += cameraChange;
             other.transform.position += playerChange;
