@@ -263,6 +263,115 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 74491854}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &155535910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155535911}
+  - component: {fileID: 155535912}
+  - component: {fileID: 155535913}
+  m_Layer: 0
+  m_Name: Received Item
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &155535911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155535910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1093620430}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &155535912
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155535910}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 47160995
+  m_SortingLayer: 3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &155535913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155535910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3b2c41d8c4004a4f924c82748d49b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  signal: {fileID: 11400000, guid: 01d937e5a209d42ccb7b85b440797c44, type: 2}
+  signalEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1857677895}
+        m_MethodName: RaiseItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!4 &188245751 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6654014263370260611, guid: 12b6f689b0aa84bd98ef248ddf2d542d,
@@ -448,7 +557,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &507404390
 GameObject:
@@ -488,7 +597,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.754717, g: 0.5446778, b: 0.7209329, a: 0}
+  m_BackGroundColor: {r: 0.17254902, g: 0.76470596, b: 0.2901961, a: 1}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -528,7 +637,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507404390}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.9, y: -14.1, z: -10}
+  m_LocalPosition: {x: 16.89, y: -16.47, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1084,67 +1193,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &645524144
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 645524146}
-  - component: {fileID: 645524145}
-  m_Layer: 0
-  m_Name: __tiled2unity_importer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &645524145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645524144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a6d7f8492faefe4ca919913c737a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Tiled2UnityXmlPath: Assets/Tiled2Unity/Imported/OverworldTest..tiled2unity.xml
-  ExporterTiled2UnityVersion: 1.0.13.2
-  ImportWait_Textures: []
-  ImportWait_Materials:
-  - Overworld.mat
-  ImportWait_Meshes:
-  - OverworldTest._mesh_0001.obj
-  - OverworldTest._mesh_0002.obj
-  ImportWait_Prefabs: []
-  ImportComplete_Textures: []
-  ImportComplete_Materials:
-  - Overworld.mat
-  ImportComplete_Meshes: []
-  ImportComplete_Prefabs: []
-  ImportingAssets:
-  - Assets/Tiled2Unity/Materials/Overworld.mat
-  - Assets/Tiled2Unity/Meshes/OverworldTest./OverworldTest._mesh_0001.obj
-  - Assets/Tiled2Unity/Meshes/OverworldTest./OverworldTest._mesh_0002.obj
---- !u!4 &645524146
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645524144}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &675264123
 GameObject:
   m_ObjectHideFlags: 0
@@ -40211,7 +40259,7 @@ PrefabInstance:
     - target: {fileID: 2209156857563215990, guid: 583d21314ad5e408f8686f68636dd6ae,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2209156857563215990, guid: 583d21314ad5e408f8686f68636dd6ae,
         type: 3}
@@ -52664,67 +52712,6 @@ MonoBehaviour:
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1050279977
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1050279979}
-  - component: {fileID: 1050279978}
-  m_Layer: 0
-  m_Name: __tiled2unity_importer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1050279978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050279977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a6d7f8492faefe4ca919913c737a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Tiled2UnityXmlPath: Assets/Tiled2Unity/Imported/OverworldTest..tiled2unity.xml
-  ExporterTiled2UnityVersion: 1.0.13.2
-  ImportWait_Textures: []
-  ImportWait_Materials:
-  - Overworld.mat
-  ImportWait_Meshes:
-  - OverworldTest._mesh_0001.obj
-  - OverworldTest._mesh_0002.obj
-  ImportWait_Prefabs: []
-  ImportComplete_Textures: []
-  ImportComplete_Materials:
-  - Overworld.mat
-  ImportComplete_Meshes: []
-  ImportComplete_Prefabs: []
-  ImportingAssets:
-  - Assets/Tiled2Unity/Materials/Overworld.mat
-  - Assets/Tiled2Unity/Meshes/OverworldTest./OverworldTest._mesh_0001.obj
-  - Assets/Tiled2Unity/Meshes/OverworldTest./OverworldTest._mesh_0002.obj
---- !u!4 &1050279979
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050279977}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1066669903 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3594282345338300229, guid: be907a3d0ef5546abb6b5e2fdd757eac,
@@ -52743,8 +52730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9efae395ce67452085f4c1a6639c787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contextOn: {fileID: 11400000, guid: badd3ff06f92c4db0a590f66e9de64e0, type: 2}
-  contextOff: {fileID: 11400000, guid: e3ae1d7a6b42247b3b6b6dd173286871, type: 2}
+  context: {fileID: 11400000, guid: e3ae1d7a6b42247b3b6b6dd173286871, type: 2}
   playerInRange: 0
   dialogBox: {fileID: 938023309}
   dialogText: {fileID: 2000384221}
@@ -53205,7 +53191,7 @@ PrefabInstance:
     - target: {fileID: 2209156857563215990, guid: 583d21314ad5e408f8686f68636dd6ae,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2209156857563215990, guid: 583d21314ad5e408f8686f68636dd6ae,
         type: 3}
@@ -53279,7 +53265,7 @@ PrefabInstance:
     - target: {fileID: 2209156857563215990, guid: 583d21314ad5e408f8686f68636dd6ae,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2209156857563215990, guid: 583d21314ad5e408f8686f68636dd6ae,
         type: 3}
@@ -53451,9 +53437,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 47160995
-  m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingLayerID: 588053883
+  m_SortingLayer: 2
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300016, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -53477,7 +53463,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1237737635
 BoxCollider2D:
@@ -53489,7 +53475,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.3348351}
@@ -53543,9 +53529,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f90d578e4e6624a1eb52c9effadc6e71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contextOn: {fileID: 11400000, guid: badd3ff06f92c4db0a590f66e9de64e0, type: 2}
-  contextOff: {fileID: 11400000, guid: e3ae1d7a6b42247b3b6b6dd173286871, type: 2}
+  context: {fileID: 11400000, guid: e3ae1d7a6b42247b3b6b6dd173286871, type: 2}
   playerInRange: 0
+  contents: {fileID: 11400000, guid: dd2a591bdc18f4453958f2d08684ad7f, type: 2}
+  playerInventory: {fileID: 11400000, guid: 3e00a6129f26e43499f7a6c7b224691f, type: 2}
+  isOpen: 0
+  raiseItem: {fileID: 11400000, guid: 01d937e5a209d42ccb7b85b440797c44, type: 2}
+  dialogBox: {fileID: 938023309}
+  dialogText: {fileID: 2000384221}
 --- !u!1001 &1325391473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53601,7 +53592,7 @@ PrefabInstance:
     - target: {fileID: 6341402746900627541, guid: f083dd0bda556469281071b40b58a6eb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6341402746900627541, guid: f083dd0bda556469281071b40b58a6eb,
         type: 3}
@@ -53695,7 +53686,7 @@ PrefabInstance:
     - target: {fileID: 2209156857563215990, guid: 583d21314ad5e408f8686f68636dd6ae,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2209156857563215990, guid: 583d21314ad5e408f8686f68636dd6ae,
         type: 3}
@@ -53820,7 +53811,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1704450130
 MonoBehaviour:
@@ -53908,7 +53899,7 @@ PrefabInstance:
     - target: {fileID: 1287761834538762257, guid: 21c646f0c17be4c49a9f5c54164a487c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1287761834538762257, guid: 21c646f0c17be4c49a9f5c54164a487c,
         type: 3}
@@ -53980,7 +53971,7 @@ Transform:
   - {fileID: 675264124}
   - {fileID: 874570606}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1756970364
 GameObject:
@@ -54188,36 +54179,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contextClue: {fileID: 1188019091}
+  contextActive: 0
 --- !u!114 &1857677888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857677886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3b2c41d8c4004a4f924c82748d49b65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  signal: {fileID: 11400000, guid: badd3ff06f92c4db0a590f66e9de64e0, type: 2}
-  signalEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1857677887}
-        m_MethodName: Enable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1857677889
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54234,7 +54197,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1857677887}
-        m_MethodName: Disable
+        m_MethodName: ChangeContext
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -54246,67 +54209,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!1 &1966299955
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1966299957}
-  - component: {fileID: 1966299956}
-  m_Layer: 0
-  m_Name: __tiled2unity_importer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1966299956
+--- !u!114 &1857677895 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 827134650921027407, guid: 1666088c7763d47c4a1e1b5b8e994867,
+    type: 3}
+  m_PrefabInstance: {fileID: 827134651981092255}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1966299955}
+  m_GameObject: {fileID: 1857677886}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a6d7f8492faefe4ca919913c737a425, type: 3}
+  m_Script: {fileID: 11500000, guid: 31895b5671f6b4be4b6342935c4624e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tiled2UnityXmlPath: Assets/Tiled2Unity/Imported/OverworldTest..tiled2unity.xml
-  ExporterTiled2UnityVersion: 1.0.13.2
-  ImportWait_Textures: []
-  ImportWait_Materials:
-  - Overworld.mat
-  ImportWait_Meshes:
-  - OverworldTest._mesh_0001.obj
-  - OverworldTest._mesh_0002.obj
-  ImportWait_Prefabs: []
-  ImportComplete_Textures: []
-  ImportComplete_Materials:
-  - Overworld.mat
-  ImportComplete_Meshes: []
-  ImportComplete_Prefabs: []
-  ImportingAssets:
-  - Assets/Tiled2Unity/Materials/Overworld.mat
-  - Assets/Tiled2Unity/Meshes/OverworldTest./OverworldTest._mesh_0001.obj
-  - Assets/Tiled2Unity/Meshes/OverworldTest./OverworldTest._mesh_0002.obj
---- !u!4 &1966299957
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1966299955}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2000384221 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1580869588305359364, guid: 0484acf38ec7340ee97f788c4cd8882a,
@@ -54369,7 +54283,7 @@ PrefabInstance:
     - target: {fileID: 827134650921027409, guid: 1666088c7763d47c4a1e1b5b8e994867,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 827134650921027409, guid: 1666088c7763d47c4a1e1b5b8e994867,
         type: 3}
@@ -54392,6 +54306,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a0bf88b08ea014b1a9502ff8a1f38026,
         type: 2}
+    - target: {fileID: 827134650921027407, guid: 1666088c7763d47c4a1e1b5b8e994867,
+        type: 3}
+      propertyPath: playerInventory
+      value: 
+      objectReference: {fileID: 11400000, guid: 3e00a6129f26e43499f7a6c7b224691f,
+        type: 2}
+    - target: {fileID: 827134650921027407, guid: 1666088c7763d47c4a1e1b5b8e994867,
+        type: 3}
+      propertyPath: receivedItemSprite
+      value: 
+      objectReference: {fileID: 155535912}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1666088c7763d47c4a1e1b5b8e994867, type: 3}
 --- !u!1001 &1580869587918111449
@@ -54444,7 +54369,7 @@ PrefabInstance:
     - target: {fileID: 1580869588650013569, guid: 0484acf38ec7340ee97f788c4cd8882a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1580869588650013569, guid: 0484acf38ec7340ee97f788c4cd8882a,
         type: 3}
@@ -54563,7 +54488,7 @@ PrefabInstance:
     - target: {fileID: 80918228633031758, guid: be907a3d0ef5546abb6b5e2fdd757eac,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 80918228633031758, guid: be907a3d0ef5546abb6b5e2fdd757eac,
         type: 3}
@@ -54682,7 +54607,7 @@ PrefabInstance:
     - target: {fileID: 2209156857563215990, guid: 583d21314ad5e408f8686f68636dd6ae,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2209156857563215990, guid: 583d21314ad5e408f8686f68636dd6ae,
         type: 3}

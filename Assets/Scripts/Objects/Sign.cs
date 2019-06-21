@@ -35,9 +35,9 @@ public class Sign : Interactable
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !other.isTrigger)
         {
-            contextOff.Raise();
+            context.Raise();
             playerInRange = false;
             dialogBox.SetActive(false);
         }

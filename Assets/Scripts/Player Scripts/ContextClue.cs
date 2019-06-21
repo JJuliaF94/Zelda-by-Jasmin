@@ -5,19 +5,25 @@ using UnityEngine;
 public class ContextClue : MonoBehaviour
 {
     public GameObject contextClue;
+    public bool contextActive = false;
     /*another option for the ContextClue without needing the Signal:
     public bool contextActive = false;
-    instead of usign the following lines (not disabled) you could say:
+    instead of usign the following lines (not disabled) you could say:*/
     public void ChangeContext()
     {
-    contextActive = !contextActive;
-    if(contextActive){
-    contextClue.setActive(true);
-    }else{
-    contextClue.setActive(false);
-    }  
+        contextActive = !contextActive;
+        if (contextActive)
+        {
+            contextClue.SetActive(true);
+        }
+        else
+        {
+            contextClue.SetActive(false);
+        }
+    }
+}
 
-    than you have to remove one of the Signal Listener(Script)'s from the Player (Inspector)
+    /*than you have to remove one of the Signal Listener(Script)'s from the Player (Inspector)
     and put the ContextClue.ChangeContext Event (Signal) in the other
     now you have to change the Sign.cs Script:
     line 39 and 48 (in the Sign Script) if(other.CompareTag("Player"))
@@ -32,7 +38,8 @@ public class ContextClue : MonoBehaviour
     Player Signal and Sign Context  
     */
 
-    public void Enable()
+    //this was the first solution
+    /*public void Enable()
     {
         contextClue.SetActive(true);  
     }
@@ -41,4 +48,4 @@ public class ContextClue : MonoBehaviour
     {
         contextClue.SetActive(false);
     }
-}
+}*/

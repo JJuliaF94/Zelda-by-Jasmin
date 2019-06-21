@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 2c55e46f25f7241cdb9ee402e5e73ad6, type: 3}
-    totalSpriteSurfaceArea: 805353
+    totalSpriteSurfaceArea: 805609
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -1428,6 +1428,7 @@ SpriteAtlas:
   - {fileID: 21300002, guid: 0cb48c69c7c33448da5c861c6871fe0d, type: 3}
   - {fileID: 21300004, guid: 0cb48c69c7c33448da5c861c6871fe0d, type: 3}
   - {fileID: 21300006, guid: 0cb48c69c7c33448da5c861c6871fe0d, type: 3}
+  - {fileID: 21300000, guid: dae69e695587949deb12ea9ec56fbfab, type: 3}
   - {fileID: 21300096, guid: dc3a182d1f00a4855b0f1b25c04b68f5, type: 3}
   - {fileID: 21300098, guid: dc3a182d1f00a4855b0f1b25c04b68f5, type: 3}
   - {fileID: 21300056, guid: dc3a182d1f00a4855b0f1b25c04b68f5, type: 3}
@@ -3076,6 +3077,7 @@ SpriteAtlas:
   - modified gfx melee sprites_1
   - modified gfx melee sprites_2
   - modified gfx melee sprites_3
+  - key
   - Inner_48
   - Inner_49
   - Inner_28
