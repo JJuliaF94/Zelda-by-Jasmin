@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 2c55e46f25f7241cdb9ee402e5e73ad6, type: 3}
-    totalSpriteSurfaceArea: 579561
+    totalSpriteSurfaceArea: 579817
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -1693,6 +1693,7 @@ SpriteAtlas:
   - {fileID: 21300084, guid: dc3a182d1f00a4855b0f1b25c04b68f5, type: 3}
   - {fileID: 21300086, guid: dc3a182d1f00a4855b0f1b25c04b68f5, type: 3}
   - {fileID: 21300000, guid: b2cfe44e8883d47aaa93384e15fd4c02, type: 3}
+  - {fileID: 21300000, guid: 5c08f56e72d6441c7832eea45abdf76e, type: 3}
   - {fileID: 21300100, guid: 6234035f247c249dfb285d54f33504d4, type: 3}
   - {fileID: 21300102, guid: 6234035f247c249dfb285d54f33504d4, type: 3}
   - {fileID: 21300104, guid: 6234035f247c249dfb285d54f33504d4, type: 3}
@@ -3458,6 +3459,7 @@ SpriteAtlas:
   - Inner_42
   - Inner_43
   - NPC_test
+  - door
   - cave_50
   - cave_51
   - cave_52

@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Enemy Scripts\PatrolLog.cs" />
     <Compile Include="Assets\Scripts\Game Stuff\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\Game Stuff\KnockBack.cs" />
+    <Compile Include="Assets\Scripts\Objects\Door.cs" />
     <Compile Include="Assets\Scripts\Objects\Interactable.cs" />
     <Compile Include="Assets\Scripts\Objects\Pot.cs" />
     <Compile Include="Assets\Scripts\Objects\RoomMove.cs" />
