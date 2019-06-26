@@ -53878,6 +53878,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8984203281790004516, guid: 469343827cd8640679da51afd4aeb5eb,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: Dungeon
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 469343827cd8640679da51afd4aeb5eb, type: 3}
 --- !u!1 &1704450126
