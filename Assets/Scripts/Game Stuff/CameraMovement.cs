@@ -8,9 +8,15 @@ public class CameraMovement : MonoBehaviour
     public float smoothing;
     public Vector2 maxPosition;
     public Vector2 minPosition;
+
+    public Animator anim;
+    //public VectorValue defaultMax;
+    //public VectorValue defaultMin;
+
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         transform.position = new Vector3(target.position.x, target.position.y, 
         transform.position.z);
     }
@@ -37,5 +43,32 @@ targetPosition, smoothing);
 
 
         }
+    }
+
+    private Vector3 RoundPosition(Vector3 position)
+    {
+        float xOffset = position.x % .0625f;
+        if(xOffset != 0)
+        {
+            position.x -= xOffset;
+        }
+        float yOffset = position.y % .0625f;
+        if(yOffset != 0)
+        {
+            position.y -= yOffset;
+        }
+        return position;
+    }
+
+    public void BeginKick()
+    {
+        anim.SetBool("kick_active", true);
+        StartCoroutine(KickCo());
+    }
+
+    public IEnumerator KickCo()
+    {
+        yield return null;
+        anim.SetBool("kick_active", false);
     }
 }
