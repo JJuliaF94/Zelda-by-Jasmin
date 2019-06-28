@@ -13,7 +13,7 @@ public class Inventory : ScriptableObject
 
     public void AddItem(Item itemToAdd)
     {
-        //If the Item is a key?
+        //If the Item a key?
         if (itemToAdd.isKey)
         {
             numberOfKeys++;

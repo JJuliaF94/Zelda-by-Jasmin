@@ -1,12 +1,7 @@
 ﻿<Properties StartupConfiguration="{C0E88223-8F87-D78C-3A15-8DAAA7DE31A8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy Scripts/Log.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScriptableObjects/BoolValue.cs">
     <Files>
-      <File FileName="Assets/Scripts/ScriptableObjects/FloatValue.cs" Line="8" Column="4" />
       <File FileName="Assets/Scripts/ScriptableObjects/BoolValue.cs" Line="21" Column="1" />
-      <File FileName="Assets/Scripts/Objects/TreasureChest.cs" Line="70" Column="34" />
-      <File FileName="Assets/Scripts/Audio/AudioManager.cs" Line="24" Column="20" />
-      <File FileName="Assets/Scripts/Enemy Scripts/AreaEnemy.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Log.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
