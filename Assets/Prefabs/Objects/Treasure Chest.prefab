@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3742714757798745084}
   - component: {fileID: 3742714757798745087}
   - component: {fileID: 3742714757798745086}
-  - component: {fileID: 3742714757798745083}
   - component: {fileID: 3742714757798745082}
+  - component: {fileID: 3742714757798745083}
   - component: {fileID: 3742714757798745085}
   m_Layer: 0
   m_Name: Treasure Chest
@@ -102,26 +102,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3742714757798745083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3742714757798745025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f90d578e4e6624a1eb52c9effadc6e71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  context: {fileID: 11400000, guid: e3ae1d7a6b42247b3b6b6dd173286871, type: 2}
-  playerInRange: 0
-  contents: {fileID: 11400000, guid: dd2a591bdc18f4453958f2d08684ad7f, type: 2}
-  playerInventory: {fileID: 11400000, guid: 3e00a6129f26e43499f7a6c7b224691f, type: 2}
-  isOpen: 0
-  raiseItem: {fileID: 11400000, guid: 01d937e5a209d42ccb7b85b440797c44, type: 2}
-  dialogBox: {fileID: 0}
-  dialogText: {fileID: 0}
 --- !u!61 &3742714757798745082
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -148,6 +128,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.375, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3742714757798745083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3742714757798745025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f90d578e4e6624a1eb52c9effadc6e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  context: {fileID: 11400000, guid: e3ae1d7a6b42247b3b6b6dd173286871, type: 2}
+  playerInRange: 0
+  contents: {fileID: 11400000, guid: dd2a591bdc18f4453958f2d08684ad7f, type: 2}
+  playerInventory: {fileID: 11400000, guid: 3e00a6129f26e43499f7a6c7b224691f, type: 2}
+  isOpen: 0
+  storedOpen: {fileID: 11400000, guid: 1ad18ecd5126d4251ad648d0d3d30cd2, type: 2}
+  raiseItem: {fileID: 11400000, guid: 01d937e5a209d42ccb7b85b440797c44, type: 2}
+  dialogBox: {fileID: 0}
+  dialogText: {fileID: 0}
 --- !u!61 &3742714757798745085
 BoxCollider2D:
   m_ObjectHideFlags: 0
