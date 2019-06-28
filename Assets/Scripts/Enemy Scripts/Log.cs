@@ -6,10 +6,13 @@ public class Log : Enemy
 {
 
     public Rigidbody2D myRigidbody;
+    [Header("Target Variables")]
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
     public Transform homePosition;
+
+    [Header("Animator")]
     public Animator anim;
 
 
@@ -20,7 +23,7 @@ public class Log : Enemy
         myRigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
-        anim.SetBool("wakeUp", true);
+        //anim.SetBool("wakeUp", true);
     }
 
     // Update is called once per frame
@@ -57,7 +60,7 @@ public class Log : Enemy
 
     }
 
-    private void SetAnimFloat(Vector2 setVector)
+    public void SetAnimFloat(Vector2 setVector)
     {
         anim.SetFloat("moveX", setVector.x);
         anim.SetFloat("moveY", setVector.y);
@@ -89,7 +92,7 @@ public class Log : Enemy
         }
 }
 
-    private void ChangeState(EnemyState newState)
+    public void ChangeState(EnemyState newState)
     {
         if(currentState != newState)
         {

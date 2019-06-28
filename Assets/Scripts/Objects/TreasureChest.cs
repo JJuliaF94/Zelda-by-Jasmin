@@ -63,7 +63,7 @@ public class TreasureChest : Interactable
         //Set the chest to opened
         isOpen = true;
         anim.SetBool("opened", true);
-        storedOpen.RunTimeValue = isOpen;
+        storedOpen.initialValue = isOpen;
 
     }
 
