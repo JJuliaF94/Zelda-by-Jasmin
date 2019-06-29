@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 2c55e46f25f7241cdb9ee402e5e73ad6, type: 3}
-    totalSpriteSurfaceArea: 580879
+    totalSpriteSurfaceArea: 580523
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -1290,11 +1290,9 @@ SpriteAtlas:
   - {fileID: 21300102, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300138, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300172, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
-  - {fileID: 21300196, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300100, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300132, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300174, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
-  - {fileID: 21300194, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300114, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300134, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300160, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
@@ -1356,6 +1354,7 @@ SpriteAtlas:
   - {fileID: 21300244, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300242, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300240, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
+  - {fileID: 21300194, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300034, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300096, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300032, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
@@ -1414,6 +1413,7 @@ SpriteAtlas:
   - {fileID: 21300236, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300204, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300238, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
+  - {fileID: 21300196, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300218, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300216, guid: be21b7675df614bb0a1deb4574d9374a, type: 3}
   - {fileID: 21300030, guid: 0cb48c69c7c33448da5c861c6871fe0d, type: 3}
@@ -3060,11 +3060,9 @@ SpriteAtlas:
   - objects_51
   - objects_69
   - objects_86
-  - objects_98
   - objects_50
   - objects_66
   - objects_87
-  - objects_97
   - objects_57
   - objects_67
   - objects_80
@@ -3126,6 +3124,7 @@ SpriteAtlas:
   - objects_122
   - objects_121
   - objects_120
+  - switchUp
   - objects_17
   - objects_48
   - objects_16
@@ -3184,6 +3183,7 @@ SpriteAtlas:
   - objects_118
   - objects_102
   - objects_119
+  - switchDown
   - objects_109
   - objects_108
   - modified gfx melee sprites_15
