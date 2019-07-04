@@ -1,15 +1,11 @@
 ﻿<Properties StartupConfiguration="{C0E88223-8F87-D78C-3A15-8DAAA7DE31A8}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy Scripts/Log.cs">
     <Files>
-      <File FileName="../../Documents/GitHub/Prototyp-2-Arduino-and-Unity-master/Test Serial Com/Assets/ArduinoControl.cs" Line="26" Column="1" />
-      <File FileName="../../Documents/GitHub/Prototyp-2-Arduino-and-Unity/Prototyp 2 Arduino and Unity/Assets/Scripts/SerialCom.cs" Line="1" Column="1" />
-      <File FileName="../Face-Detection-JavaScript-master-2/index.html" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Enemy Scripts/RockProjectile.cs" Line="12" Column="5" />
-      <File FileName="Assets/Scripts/Objects/Projectile.cs" Line="11" Column="22" />
-      <File FileName="Assets/Scripts/ScriptableObjects/BoolValue.cs" Line="21" Column="1" />
-      <File FileName="Assets/Scripts/Objects/Switch.cs" Line="23" Column="30" />
-      <File FileName="Assets/Scripts/Enemy Scripts/TurretEnemy.cs" Line="9" Column="30" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Log.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Game Stuff/Room.cs" Line="21" Column="49" />
+      <File FileName="Assets/Scripts/Game Stuff/DungeonRoom.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Game Stuff/Scene1Room.cs" Line="11" Column="6" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="34" Column="43" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Log.cs" Line="13" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

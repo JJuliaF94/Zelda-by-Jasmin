@@ -70,7 +70,10 @@
     <Compile Include="Assets\Scripts\Enemy Scripts\TurretEnemy.cs" />
     <Compile Include="Assets\Scripts\Game Stuff\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\Game Stuff\CoinTextManager.cs" />
+    <Compile Include="Assets\Scripts\Game Stuff\DungeonRoom.cs" />
     <Compile Include="Assets\Scripts\Game Stuff\KnockBack.cs" />
+    <Compile Include="Assets\Scripts\Game Stuff\Room.cs" />
+    <Compile Include="Assets\Scripts\Game Stuff\Scene1Room.cs" />
     <Compile Include="Assets\Scripts\Objects\Coin.cs" />
     <Compile Include="Assets\Scripts\Objects\Door.cs" />
     <Compile Include="Assets\Scripts\Objects\Heart.cs" />
