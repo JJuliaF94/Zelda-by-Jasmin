@@ -1,18 +1,23 @@
 ﻿<Properties StartupConfiguration="{C0E88223-8F87-D78C-3A15-8DAAA7DE31A8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy Scripts/Log.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Face-Detection-JavaScript-master-2/script.js">
     <Files>
-      <File FileName="Assets/Scripts/Game Stuff/Room.cs" Line="21" Column="49" />
-      <File FileName="Assets/Scripts/Game Stuff/DungeonRoom.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Game Stuff/Scene1Room.cs" Line="11" Column="6" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="34" Column="43" />
-      <File FileName="Assets/Scripts/Enemy Scripts/Log.cs" Line="13" Column="1" />
+      <File FileName="../../Downloads/Unity-Technologies-unity-arkit-plugin-94e47eae5954/FaceGestures/Face Tracking/Prototyp2Uniduino/Assets/Uduino/Scripts/ReadArduinoData.cs" Line="10" Column="7" />
+      <File FileName="../../Downloads/Unity-Technologies-unity-arkit-plugin-94e47eae5954/FaceGestures/Face Tracking/Prototyp2Uniduino/Assets/Uduino/Scripts/UduinoManager.cs" Line="397" Column="78" />
+      <File FileName="../../Documents/GitHub/Prototyp2Uniduino/Assets/Uduino/Scripts/ReadSerial.cs" Line="92" Column="14" />
+      <File FileName="../../Documents/GitHub/Prototyp-2-Arduino-and-Unity/Uduino2/Assets/Uduino/Examples/Advanced/ReadSensor/ReadSensor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Enemy.cs" Line="36" Column="28" />
+      <File FileName="../../Documents/GitHub/Prototyp2Uniduino/Assets/Uduino/Scripts/VideoPlayer.cs" Line="32" Column="113" />
+      <File FileName="../../Documents/GitHub/Prototyp2Uniduino/Assets/Uduino/Scripts/VideoPlayerNextTry.cs" Line="20" Column="82" />
+      <File FileName="../Face-Detection-JavaScript-master-2/script.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/jjuliaf94/Documents/GitHub/Prototyp2Uniduino/Assets/Uduino/Scripts/VideoPlayerNextTry.cs" line="13" column="140" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
