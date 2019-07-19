@@ -38,6 +38,7 @@ Documentation of the game (Structure)
 
 There are a few bugs left (to much to tell them all but here are a few to tell)
 - the camera isnt quite perfect, so you can see the edge of the world sometimes, if have to play better with the x and y coordinates
+- the coins are always added up high even if you die
 - there is no start screen, pause screen and game over screen, i will at this later on :)
 - if you die, you have to start the game new by pressing cmd + q (mac) 
 ....
