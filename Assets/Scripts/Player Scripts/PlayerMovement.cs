@@ -121,6 +121,7 @@ public class PlayerMovement : MonoBehaviour
         playerHealthSignal.Raise();
         if (currentHealth.RunTimeValue > 0)
         {
+            playerHit.Raise();
             StartCoroutine(KnockCo(knockTime));
         }
         else
@@ -131,7 +132,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator KnockCo(float knockTime)
     {
-        playerHit.Raise();
+       
         if (myRigidbody != null)
         {
             yield return new WaitForSeconds(knockTime);
