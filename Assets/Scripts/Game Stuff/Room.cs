@@ -11,8 +11,10 @@ public class Room : MonoBehaviour
     {
         if(other.CompareTag("Player") && !other.isTrigger)
         {
+            //Destroy(this.gameObject);
+
             //Activate all Enemies and Pots
-            for(int i = 0; i < enemies.Length; i++)
+            for (int i = 0; i < enemies.Length; i++)
             {
                 ChangeActivation(enemies[i], true);
             }

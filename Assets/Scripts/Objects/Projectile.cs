@@ -37,6 +37,11 @@ public class Projectile : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(this.gameObject);
+        if(other.CompareTag("Player"))
+        {
+            Destroy(this.gameObject);
+        }
+
+        //Destroy(this.gameObject);
     }
 }

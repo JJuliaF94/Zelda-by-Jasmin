@@ -181,6 +181,9 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\SpriteDepthInMapEditor.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\Tiled2UnityMenuItems.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/jjuliaf94/GitHub/Zelda by Jasmin/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/jjuliaf94/GitHub/Zelda by Jasmin/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -189,6 +192,9 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/jjuliaf94/GitHub/Zelda by Jasmin/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/jjuliaf94/GitHub/Zelda by Jasmin/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/jjuliaf94/GitHub/Zelda by Jasmin/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
