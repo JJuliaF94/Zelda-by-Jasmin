@@ -39,6 +39,8 @@ public class Projectile : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
+            //this is the solution for my biggest issue -> the turret enemy was always
+            //walking on one point and not firing projectiles
             Destroy(this.gameObject);
         }
 
